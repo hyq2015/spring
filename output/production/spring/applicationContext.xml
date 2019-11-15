@@ -11,12 +11,11 @@
     <bean id="helloWorld" class="com.atricky.spring.beans.HelloWorld">
         <property name="name" value="ricky"/>
     </bean>
-
     <!--通过构造器的方法配置Bean属性-->
     <bean id="car" class="com.atricky.spring.beans.Car">
-        <constructor-arg value="Audi"/>
-        <constructor-arg value="Shanghai"/>
-        <constructor-arg value="300000"/>
+        <constructor-arg value="Audi"></constructor-arg>
+        <constructor-arg value="Shanghai"></constructor-arg>
+        <constructor-arg value="300000"></constructor-arg>
     </bean>
 
 </beans>
